@@ -1,3 +1,25 @@
-div {
+body {
     background-color: #5f2f2f;
+}
+
+.gg {
+    width: 250px;
+    height: 250px;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+}
+
+.wp {
+    display: flex;
+}
+
+.danger {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+}
+ 
+p {
+    font-size: 50px;
 }

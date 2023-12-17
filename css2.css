@@ -10,7 +10,11 @@ body {
     display: flex;
 }
 
-.wp {
+.wp1 {
+    display: flex;
+}
+
+.wp2 {
     display: flex;
 }
 
@@ -19,7 +23,21 @@ body {
     margin: 10px;
     padding: 10px;
 }
- 
+
 p {
+    font-size: 50px;
+}
+
+.knpk {
+    background-color: #aa8488;
+}
+
+.verh {
+    position: fixed;
+    background-color: #aa8488;
+    width: 200px;
+    height: 100px;
+    right: 0;
+    top: 0;
     font-size: 50px;
 }

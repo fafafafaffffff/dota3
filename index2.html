@@ -7,65 +7,87 @@
   </head>
 
   <body>
-    <h2> Герои </h2>
-    <div class = 'wp'> 
-      <img class = "gg" src = "csr\pydj.png">
-      <img class = "gg" src = "csr\k5sHcVAlHo4 1.png">
-      <img class = "gg" src = "csr\babka.png">
-      <img class = "gg" src = "csr\sheik.png">
-      <img class = "gg" src = "csr\vk.png">
-      <img class = "gg" src = "csr\fura.png">
-      <img class = "gg" src = "csr\bara.png">
-      <img class = "gg" src = "csr\panda.png">
+    <section id = 'verh'>
+      <button class = 'verh' onclick="document.getElementById('verh').scrollIntoView({behavior: 'smooth'});">наверх</button>
+    </section>
+    <div class = 'wp1'> 
+      <!-- <button class = 'knpkTud'> туда </button> -->
+      <img class = "gg" onclick="document.getElementById('pudg').scrollIntoView({behavior: 'smooth'});" src = "csr\pydj.png">
+      <img class = "gg" onclick="document.getElementById('gulya').scrollIntoView({behavior: 'smooth'});" src = "csr\k5sHcVAlHo4 1.png">
+      <img class = "gg" onclick="document.getElementById('babka').scrollIntoView({behavior: 'smooth'});" src = "csr\babka.png">
+      <img class = "gg" onclick="document.getElementById('sheik').scrollIntoView({behavior: 'smooth'});" src = "csr\sheik.png">
+      <!-- <button class = 'knpkSud'> сюда </button> -->
     </div>
+    <div class = 'wp2'>
+      <img class = "gg" onclick="document.getElementById('vk').scrollIntoView({behavior: 'smooth'});" src = "csr\vk.png">
+      <img class = "gg" onclick="document.getElementById('fura').scrollIntoView({behavior: 'smooth'});" src = "csr\fura.png">
+      <img class = "gg" onclick="document.getElementById('bara').scrollIntoView({behavior: 'smooth'});" src = "csr\bara.png">
+      <img class = "gg" onclick="document.getElementById('panda').scrollIntoView({behavior: 'smooth'});" src = "csr\panda.png">
+    </div>
+    
     <!-- пудж -->
-    <div class = 'danger'>
-      <p>эль пуджеро - персонаж ближнего боя с ароматом цветов из самых райских садов! имеется рыболовный крюк. сборка через 5 тарасок и поедание гули.</p>
-      <img src = "csr\pydj.png">
-    </div>
+    <section id='pudg'>
+      <div class = 'danger'>
+        <p>эль пуджеро - персонаж ближнего боя с ароматом цветов из самых райских садов! имеется рыболовный крюк. сборка через 5 тарасок и поедание гули.</p>
+        <img src = "csr\pydj.png">
+      </div>
+    </section>
 
     <!-- гуля -->
-    <div class = 'danger'>
-      <img src = "csr\k5sHcVAlHo4 1.png">
-      <p>гуля - псинка на поводке, сидящая вообще в любом существе и выпрыгивающая ультра внезапно. собирают через мерзость. прототип персонажа - кусачка.</p>
-    </div>
+    <section id = 'gulya'>
+      <div class = 'danger'>
+        <img src = "csr\k5sHcVAlHo4 1.png">
+        <p>гуля - псинка на поводке, сидящая вообще в любом существе и выпрыгивающая ультра внезапно. собирают через мерзость. прототип персонажа - кусачка.</p>
+      </div>
+    </section> 
 
     <!-- бабка -->
-    <div class = 'danger'>
-      <p>бабка - в узких кругах диджей жаба. настреливает как в былое время в афганистане. её питомец заблюёт досметри</p>
-      <img src = "csr\babka.png">
-    </div>
+    <section id = 'babka'>
+      <div class = 'danger'>
+        <p>бабка - в узких кругах диджей жаба. настреливает как в былое время в афганистане. её питомец заблюёт досметри</p>
+        <img src = "csr\babka.png">
+      </div>
+    </section>
 
     <!-- шейкер -->
-    <div class = 'danger'>
-      <img src = "csr\sheik.png">
-      <p>шейкер - очумительная гаргуля, прыгающaя из кустов, заставляя несчастных противников замереть. опасен, собирать через 5 рапир и дизоль</p>
-      
-    </div>
+    <section id = 'sheik'>
+      <div class = 'danger'>
+        <img src = "csr\sheik.png">
+        <p>шейкер - очумительная гаргуля, прыгающaя из кустов, заставляя несчастных противников замереть. опасен, собирать через 5 рапир и дизоль</p>    
+      </div>
+    </section>
 
     <!-- ВК -->
-    <div class = 'danger'>
-      <p>вк - не приложение, а король. уродлив тем, что с аeгисом и ультой его нужно убивать трижды. уродские скелеты забьют даже после его смерти</p>
-      <img src = "csr\vk.png">
-    </div>
+    <section id = 'vk'>
+      <div class = 'danger'>
+        <p>вк - не приложение, а король. уродлив тем, что с аeгисом и ультой его нужно убивать трижды. уродские скелеты забьют даже после его смерти</p>
+        <img src = "csr\vk.png">
+      </div>
+    </section>
 
     <!-- фура -->
-    <div class = 'danger'>
-      <img src = "csr\fura.png">
-      <p>фура - лесник, сбегающий с поля боя при помощи деревьев. последние, кстати, подглядывают и дают вижн. урод, на изи спушит все</p>
-      
-    </div>
+    <section id = 'fura'>
+      <div class = 'danger'>
+        <img src = "csr\fura.png">
+        <p>фура - лесник, сбегающий с поля боя при помощи деревьев. последние, кстати, подглядывают и дают вижн. урод, на изи спушит все</p>
+      </div>
+    </section>
 
     <!-- бара -->
-    <div class = 'danger'>
-      <p>бара - подпивасник, разгоняющийся до 2000 км/сек и снося всех с пути. для него правила не писаны, как и штрафы. работает с поддельником гулей - на двоих 8 сапог.</p>
-      <img src = "csr\bara.png">
-    </div>
+    <section id = 'bara'>
+      <div class = 'danger'>
+        <p>бара - подпивасник, разгоняющийся до 2000 км/сек и снося всех с пути. для него правила не писаны, как и штрафы. работает с поддельником гулей - на двоих 8 сапог.</p>
+        <img src = "csr\bara.png">
+      </div>
+    </section>
+
     <!-- панда -->
-    <div class = 'danger'>
-      <img src = "csr\panda.png">
-      <p>пивная панда - пожалуй самый главный и ответственный по пиву. играют за него только с балтикой девяткой и никак иначе. снабжает бару топливом.</p> 
-    </div>
+    <section id = 'panda'>
+      <div class = 'danger'>
+        <img src = "csr\panda.png">
+        <p>пивная панда - пожалуй самый главный и ответственный по пиву. играют за него только с балтикой девяткой и никак иначе. снабжает бару топливом.</p> 
+      </div>
+    </section>
 
   </body>
 </html>
